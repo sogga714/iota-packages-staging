@@ -8,7 +8,7 @@ sha256 = ""
 
 [dependencies]
 runtime = [""]
-build = [ "pkgconf", "libXau", "libxcb", "libxkbcommon",  "libev", "yajl", "asciidoc", "xmlto", "perl-pod-simple", "docbook-xml", "pcre", "libstartup-notification", "pango", "cairo"]
+build = [ "pkgconf", "libXau", "libxcb", "libxkbcommon",  "libev", "yajl",  "perl-pod-simple", "docbook-xml", "pcre", "libstartup-notification", "pango", "cairo"] # ommited asciidoc since the tarball *should* have pregenerated documentation (hopefully)
 
 [build]
 system = "meson"
