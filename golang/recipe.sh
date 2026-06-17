@@ -15,4 +15,4 @@ tar -xzf "go1.26.4.linux-amd64.tar.gz" -C /usr/local
 
 # Add /usr/local/go/bin to PATH
 echo "PATH=$PATH:/usr/local/go/bin" >> /etc/profile
-echo "To use go, please source /etc/profile (or restart your shell). Thank you :)"
+echo "To use Go, please source /etc/profile (or restart your shell). Thank you :)"
