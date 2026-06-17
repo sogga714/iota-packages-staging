@@ -14,7 +14,7 @@ build = [
 	"pango"
 	"libstartup-notification"
 	"yajl"
-	"asylum"
+	"xorg-libraries"
 ] # omitted asciidoc and xmlto since the tarball *should* have pregenerated documentation (hopefully)
 
 [build]
